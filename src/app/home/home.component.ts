@@ -9,7 +9,8 @@ export class HomeComponent implements OnInit {
 
   // Typescript
   clickCounter: number = 0;
-
+  name: string = '';
+  
   constructor() { }
 
   ngOnInit() {
